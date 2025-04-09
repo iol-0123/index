@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector2</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{color: rgb(224, 202, 224);}
+        span{
+            font-size: 34px;
+        }
+        h1 + span {color: rgb(37, 119, 190);}  /* h1 相鄰的第一個 span 變成紅色文字 */
+        h1 > span {color: rgb(195, 221, 170);}
+    </style>
+</head>
+<body>
+    <h1>選擇測試器<span>嘻嘻</span></h1>
+    <span>嘿嘿</span>
+</body>
+</html>
